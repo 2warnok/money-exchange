@@ -1,0 +1,1 @@
+module.exports=function(a){let b,c,d,e,f,g={};if(1>a)return g;if(1e4<a)return g={error:"You are rich, my friend! We don't have so much coins for exchange"};for(var h in b=Math.floor(a/50),c=Math.floor((a-50*b)/25),d=Math.floor((a-50*b-25*c)/10),e=Math.floor((a-50*b-25*c-10*d)/5),f=Math.floor(a-50*b-25*c-10*d-5*e),g={H:b,Q:c,D:d,N:e,P:f},g)1>g[h]&&delete g[h];return g};
